@@ -1,0 +1,400 @@
+/* 
+font-family: 'Montserrat', sans-serif;
+font-family: 'Oxygen', sans-serif;
+*/
+
+body {
+	overflow-x: hidden;
+	font-family: 'Montserrat', sans-serif;
+	color: #616971;
+}
+
+.lead-line {
+	font-style: italic;
+
+}
+
+
+.btn-primary {
+	background: rgb(243, 117, 92) !important;
+	color: white;
+	border: none;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+    background: hsl(10, 86%, 60%) !important;
+    color: white;
+	border: none;
+
+}
+
+
+.btn-outline {
+	color: rgb(243, 117, 92);
+	border-color: rgb(243, 117, 92);
+}
+
+
+
+.btn-outline:hover, .btn-outline:focus, .btn-outline:active {
+    color: white;
+    background: hsl(10, 86%, 60%);
+
+}
+
+
+
+.border-primary {
+	border-color: rgb(243, 117, 92) !important;
+}
+
+.border-primary-white {
+	border-color: white !important;
+}
+
+
+
+.heading-title {
+	font-family: 'Oxygen', sans-serif;
+	font-weight: 700;
+	font-size: 4rem;
+	padding-top: 1rem 0;
+	color: rgb(243, 117, 92);
+}
+
+
+
+
+/*============================= TOP BAR CSS ============================= */
+
+.top-bar {
+	background: rgb(243, 117, 92);
+	height: 2.8rem;
+	padding: .5rem 0;
+}
+
+.top-bar a {
+	color: white;
+	text-decoration: none;
+	font-size: 1.1rem;
+}
+
+
+/*============================= NAVBAR CSS ============================= */
+
+.navbar-brand img {
+	height: 3rem;
+}
+
+.navbar {
+	background: white !important;
+	font-size: 1.15 rem;
+	font-family: 'Oxygen', sans-serif;
+	font-weight: 700;
+	letter-spacing: .15rem;
+	box-shadow: 0 .5rem .5rem rgba(0,0,0,.1);
+	z-index: 1;
+}
+
+.nav-item {
+	padding: .5rem; 
+}
+
+.nav-link {
+	color: #5b5555 !important;
+}
+
+.nav-link.active, .nav-link:hover {
+	color: rgb(243, 117, 92) !important;
+}
+
+
+
+
+/*============================= Jumbotron CSS ============================= */
+
+.jumbotron-top {
+	color: white;
+	background-image: url("../img/jumbotron-img-small.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	box-shadow: 0 .5rem .5rem rgba(0,0,0,.1);
+}
+
+.jb-text button {
+	background: rgb(243, 117, 92);
+	color: white; 
+}
+
+.jb-text {
+	position: absolute;
+	top: 59%;
+	text-shadow: 1px 1px #7c7c7c;
+}
+
+.jb-text h1 {
+	font-family: 'Oxygen', sans-serif;
+	font-weight: 700;
+	font-size: 4rem;
+}
+
+.jb-text p {
+	font-size: 1.5rem;
+}
+
+
+/*============================= Carousel CSS ============================= */
+
+
+.carousel-control-prev, .carousel-control-prev:hover, .carousel-control-next, .carousel-control-next:hover {
+	color: rgb(243, 117, 92);
+}
+
+.gallery-paragraph {
+	font-style: italic;
+	padding-bottom: 2rem;
+}
+
+.carousel-sales-pitch {
+	font-size: 2rem;
+	padding: 4rem 2rem;
+}
+
+.carousel-sales-pitch button {
+	background: rgb(243, 117, 92);
+	color: white; 
+}
+
+
+/*============================= Cards ============================= */
+
+
+.fixed-background h1 {
+	margin-bottom: 0;
+
+}
+
+.card {
+        margin: 0 auto;
+        float: none; 
+        margin-bottom: 10px;
+        background: #fafafa;
+}
+
+.card-stack{
+	padding: 0 10%;
+}
+
+.card-title {
+	font-size: 1.5rem;
+	color: rgb(243, 117, 92);
+}
+
+
+
+/*============================= Fixed BG Section ============================= */
+
+.fixed {
+	background-image: url(../img/fixed-bg-small.jpg);
+	opacity: 0.2;
+	position: fixed;
+}
+
+.fixed-background h1 {
+	text-shadow: .5px .5px #7c7c7c;
+}
+
+
+
+/*============================= Social Follow Section ============================= */
+
+
+.social-follow {
+	background: linear-gradient(0deg, hsl(10, 86%, 76%), hsl(10, 86%, 66%));
+	width: 100%;
+	padding: 2rem 0;
+	box-shadow: 0 .5rem .5rem rgba(0,0,0,.1);
+
+}
+
+.social-follow h1 {
+	font-family: 'Oxygen', sans-serif;
+	font-weight: 700;
+	font-size: 4rem;
+	padding-top: 1rem 0;
+	color: white;
+}
+
+.social-follow a {
+	color: white;
+}
+
+.social-follow a:hover {
+	color: #f7f7f9;
+}
+
+.social-follow .svg-inline--fa {
+	font-size: 2.3rem;
+}
+
+
+/*============================= Footer ============================= */
+
+footer {
+	background-color: #383838;
+	padding: 1rem 2rem 3rem;
+}
+
+footer img {
+	height: 5rem;
+	margin: 1.5rem auto;
+}
+
+footer a,
+footer p,
+.socket a {
+	color: white;
+	text-decoration: none;
+}
+
+ul.social {
+	list-style-type: none;
+	display: flex;
+	max-width: 16rem;
+	margin: 0 auto;
+	padding: 0;
+}
+
+ul.social li {
+	margin: 0 auto;
+}
+
+footer .svg-inline--fa {
+	font-size: 2.3rem;
+}
+
+footer .svg-inline--fa:hover {
+	color: rgb(243, 117, 92);
+}
+
+
+/*============================= Socket ============================= */
+
+.socket {
+	background-color: #222222;
+	border-top: .1rem solid rgb(243, 117, 92);
+}
+
+
+
+/*============================= Thank you ============================= */
+.thankyou {
+	padding: 10rem 0;
+}
+
+.thankyou h1 {
+	font-family: 'Oxygen', sans-serif;
+	font-weight: 700;
+	font-size: 4rem;
+	color: rgb(243, 117, 92);
+}
+
+.thankyou p {
+	font-style: italic;
+	font-size: 1.5rem;
+}
+
+.thankyou .svg-inline--fa {
+	font-size: 2.3rem;
+	color: rgb(243, 117, 92);
+}
+
+.thankyou .svg-inline--fa:hover {
+	color: hsl(10, 86%, 60%);
+}
+
+
+/*============= MEDIA QUERIES =============*/
+
+
+/* Devices under 768px (md) */
+@media (max-width: 350px) {
+	.jb-text h1 {
+		font-family: 'Oxygen', sans-serif;
+		font-weight: 700;
+		font-size: 3rem;
+	}
+
+	.jb-text p {
+		font-size: 1.5rem;
+	}
+	.heading-title {
+		font-family: 'Oxygen', sans-serif;
+		font-weight: 700;
+		font-size: 2rem;
+		padding-top: 1rem 0;
+		color: rgb(243, 117, 92);
+	}
+}
+
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
+
+
+
+
+/*-- Bootstrap Mobile Gutter Fix --*/
+.row, .container-fluid {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+
+
+/*-- Fixed Background Image Pre-built --*/
+.fixed-background {
+  position: relative;
+  width: 100%;
+  z-index: 1000!important;
+}
+.fixed-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -999 !important;
+}
+.fixed {
+  z-index: -999!important;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  will-change: transform;
+}
+
