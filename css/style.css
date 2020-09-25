@@ -320,7 +320,7 @@ footer .svg-inline--fa:hover {
 /*============= MEDIA QUERIES =============*/
 
 
-/* Devices under 768px (md) 
+/* Devices under 768px (md) */
 @media (max-width: 350px) {
 	.jb-text h1 {
 		font-family: 'Oxygen', sans-serif;
@@ -339,7 +339,6 @@ footer .svg-inline--fa:hover {
 		color: rgb(243, 117, 92);
 	}
 }
- */
 
 /*============ BOOTSTRAP BREAK POINTS:
 
