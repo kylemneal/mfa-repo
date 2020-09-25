@@ -198,7 +198,7 @@ body {
 
 .fixed {
 	background-image: url(../img/fixed-bg-small.jpg);
-	opacity: 0.8;
+	opacity: 0.4;
 	position: fixed;
 	z-index: -800;
 }
@@ -369,7 +369,7 @@ Extra (xl) large devices (large desktops, 1200px and up)
 }
 
 
-/*-- Fixed Background Image Pre-built --*/
+/*-- Fixed Background Image --*/
 .fixed-background {
   position: relative;
   width: 100%;
