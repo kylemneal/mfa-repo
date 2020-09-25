@@ -200,6 +200,7 @@ body {
 	background-image: url(../img/fixed-bg-small.jpg);
 	opacity: 0.2;
 	position: fixed;
+	z-index: -800;
 }
 
 .fixed-background h1 {
