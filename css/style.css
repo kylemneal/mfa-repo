@@ -215,7 +215,7 @@ body {
 } */
 
 .parallax {
-	background: url('../img/fixed-bg-small-transparent.webp');
+	background: url('../img/fixed-bg-small-wht.jpg');
 	position: relative;
 	background-size: cover;
 	background-position: center;
