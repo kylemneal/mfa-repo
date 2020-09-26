@@ -199,7 +199,7 @@ body {
 /*============================= Fixed BG Section ============================= */
 
 .fixed {
-	background-image: url(../img/fixed-bg-small.jpg);
+	background-image: url(../img/fixed-bg-small-wht.jpg);
 	opacity: 0.4;
 	position: fixed;
 	z-index: -800;
