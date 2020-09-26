@@ -131,8 +131,7 @@ body {
 }
 
 .jb-text {
-	position: absolute;
-	top: 59%;
+	padding-top: 45vh;
 	text-shadow: 1px 1px #7c7c7c;
 }
 
@@ -145,6 +144,10 @@ body {
 .jb-text p {
 	font-size: 1.5rem;
 }
+
+
+
+
 
 
 /*============================= Carousel CSS ============================= */
@@ -198,6 +201,8 @@ body {
 
 /*============================= Fixed BG Section ============================= */
 
+
+/* Old section
 .fixed {
 	background-image: url(../img/fixed-bg-small.jpg);
 	opacity: 0.4;
@@ -207,9 +212,22 @@ body {
 
 .fixed-background h1 {
 	text-shadow: .5px .5px #7c7c7c;
+} */
+
+.parallax {
+	background: url('../img/fixed-bg-small-transparent.webp');
+	position: relative;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	box-shadow: 0 .2rem .4rem rgba(0,0,0,.1);
+
 }
 
-
+.parallax h1 {
+	text-shadow: .5px .5px #7c7c7c;
+}
 
 /*============================= Social Follow Section ============================= */
 
@@ -324,6 +342,9 @@ footer .svg-inline--fa:hover {
 
 /* Devices under 768px (md) */
 @media (max-width: 350px) {
+	.jb-text {
+		padding-top: 30vh;
+	}
 	.jb-text h1 {
 		font-family: 'Oxygen', sans-serif;
 		font-weight: 700;
@@ -341,6 +362,50 @@ footer .svg-inline--fa:hover {
 		color: rgb(243, 117, 92);
 	}
 }
+
+@media (max-width: 350px) {
+	.jb-text {
+		padding-top: 30vh;
+	}
+	.jb-text h1 {
+		font-family: 'Oxygen', sans-serif;
+		font-weight: 700;
+		font-size: 3rem;
+	}
+
+	.jb-text p {
+		font-size: 1.5rem;
+	}
+	.heading-title {
+		font-family: 'Oxygen', sans-serif;
+		font-weight: 700;
+		font-size: 2rem;
+		padding-top: 1rem 0;
+		color: rgb(243, 117, 92);
+	}
+}
+@media (max-width: 414px) {
+	.jb-text {
+		padding-top: 30vh;
+	}
+	.jb-text h1 {
+		font-family: 'Oxygen', sans-serif;
+		font-weight: 700;
+		font-size: 3rem;
+	}
+
+	.jb-text p {
+		font-size: 1.5rem;
+	}
+	.heading-title {
+		font-family: 'Oxygen', sans-serif;
+		font-weight: 700;
+		font-size: 2rem;
+		padding-top: 1rem 0;
+		color: rgb(243, 117, 92);
+	}
+}
+
 
 /*============ BOOTSTRAP BREAK POINTS:
 
@@ -371,7 +436,7 @@ Extra (xl) large devices (large desktops, 1200px and up)
 }
 
 
-/*-- Fixed Background Image --*/
+/*-- Fixed Background Image
 .fixed-background {
   position: relative;
   width: 100%;
@@ -399,4 +464,4 @@ Extra (xl) large devices (large desktops, 1200px and up)
   transform: translateZ(0);
   will-change: transform;
 }
-
+--*/
